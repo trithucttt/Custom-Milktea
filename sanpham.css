@@ -1,0 +1,71 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.giohang{
+    position: absolute;
+    display: flexd;
+    right: 10px;
+    top: 1.3rem;
+    height: 40px;
+    padding: 10px;
+}
+.giohang img{
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.giohang span{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    height: 50px;
+    line-height: 40px;
+}
+header {
+    background: rgb(247, 244, 67);
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.row{
+    margin: 1.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row .boxsp{
+    margin: 1rem;
+    padding-bottom: 10px;
+    border: 10px solid  rgba(244, 240, 240, 0.992);
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+}
+
+  .row .boxsp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.row .boxsp a{
+    padding-right: 0.5rem;
+}
+body a{
+    text-decoration: none
+}
+.menu{
+    margin: 1.5rem;
+    float: left;
+}
+.menu a{
+    font-size: 18px;
+    color: black;
+}
+.menu a:hover{
+    color: yellow
+}
+.menu .mainmenu ul{
+  font-size: 10rem;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 1.5rem;
+    background:url("https://chinmilktea.vn/public/upload/images/hinhsanpham/milktea-macchiato-78421616126852.jpg") ;
+    font-family: Arial, sans-serif;
+    background-color: #cecece;
+    }
+* {
+    box-sizing: border-box;
+    }
+.thanhtoan{
+    border-radius: 0.5rem;
+    height: 700px;                                 
+    width: 30%;
+    padding:20px;
+    margin:0 auto;
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+.thanhtoan .input-group input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    }
+.thanhtoan .input-group input{
+    background-color: #ddd;
+    outline: none;
+}
+.submit {
+    background-color: rgb(218, 218, 22);
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    padding: 13px 18px;
+    margin: 12px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}

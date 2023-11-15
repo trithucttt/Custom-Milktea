@@ -1,0 +1,217 @@
+/* Gio hang */
+:root {
+    --main-color: rgb(39, 62, 39);
+    --sub-color: rgb(212, 109, 13);
+    --text-color: #ffffff;
+    --bg--color: black;
+    --brow--:rgb(98, 89, 66);
+}
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Water+Brush&display=swap');
+*{
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+}
+header {
+    background: rgb(247, 244, 67);
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--sub-color);
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    list-style: none;
+}
+/* Gio hang */
+.cart {
+    padding: 50px 0;
+}
+.cart-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-top {
+    height: 5px;
+    width: 70%;
+    background-color: var(--bg--color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.cart-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;background-color: #ffffff;
+}
+.cart-top-item i {
+    color: bisque;
+}
+.cart-top-cart {
+    border: 1px solid #0db7ea;
+}
+.cart-top-cart i {
+    color: #0db7ea;
+}
+.cart-content-left {
+    flex: 2;
+    padding-right: 12px;
+}
+.cart-content-left table {
+    width: 100%;
+    text-align: center;
+
+}
+.cart-content-left table th {
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+.cart-content-left table p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.cart-content-left table input {
+    width: 30px;
+}
+.cart-content-left table span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.cart-content-left table td {
+    padding: 20px 0;
+    border-bottom: 2px solid #dddddd;
+}
+.cart-content-left td:first-child img {
+    width: 90px;
+}
+.cart-content-right {
+    flex: 1;
+    padding-left: 12px;
+    border-left: 2px solid #dddddd;
+}
+.cart-content-right table {
+    width: 100%;
+}
+.cart-content-right table th {
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+.cart-content-right table td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    padding: 6px 0;
+}
+.cart-content-right tr:nth-child(4) td {
+    border-bottom: 2px solid #dddddd;
+}
+.cart-content-right tr td:last-child {
+    text-align: right;
+}
+.cart-content-right-text {
+    margin: 20px 0;
+    text-align: center;
+}
+.cart-content-right-text p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.cart-content-right-button  {
+    text-align: center;
+    align-items: center;
+}
+.cart-content-right-button button {
+    padding: 0 18px;
+    height: 35px;
+    cursor: pointer;
+}
+.cart-content-right-button button:first-child {
+    margin: 20px 0;
+    background-color: #ffffff;
+    border:1px solid black;
+    margin-right: 20px;
+}
+.cart-content-right-button button:first-child:hover {
+    background-color: #dddddd;
+}
+.cart-content-right-button button:last-child {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border: 1px solid black;
+}
+.cart-content-right-button button:last-child:hover {
+    background-color: #dddddd;
+    color: black;
+}
+.cart-content-right-dangnhap {
+    margin-top: 20px;
+}
+.cart-content-right-dangnhap p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+.footer {
+    padding: 0.5em 19rem;
+    line-height: 2rem;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1rem;
+    background: rgb(247, 244, 67);
+    text-align: left;
+  }
+  .footer span {
+    color: var(--pink);
+  }
+  .footer a{
+    color: black;
+    text-transform: none;
+  }
+  .footer a:hover{
+  color: red;
+  }

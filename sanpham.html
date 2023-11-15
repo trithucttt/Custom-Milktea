@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trà sữa chin</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="sanpham.css">
+   
+</head>
+<body>
+
+<header>
+   <a href="trangchu.html" class="logo"><img src="/imge/logo (1)222.png" alt="" height="70px" width="70px" style="margin-right: 40px;"> </a>
+   <div class="giohang">
+      <a href="cart.html"><img src="/imge/giohang-removebg-preview.png" alt=""></a> 
+   </div>
+</header>
+<body> 
+    <nav class="menu">
+        <ul class="mainmenu"></ul>
+        <ul><a href="#">DANH MỤC</a> <hr style="width: 230px; color: black;"></ul>
+        <ul>
+            <a href="#trasua">Trà sữa</a> <hr style="width: 230px; color: black;">
+            <a href="#tra">Trà đào</a> <hr style="width: 230px; color: black;">
+            <a href="#toping">Topping</a><hr style="width: 230px; color: black;">
+        </ul>
+           
+    </nav>
+ <div class="row">
+   <section class="trasua" id="trasua">
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/matcha-machiato-23061616126590.jpg" alt=""></div>
+        <p><span>25.000</span>đ</p>
+        <a href="#">Matcha machiato</a>
+        <input type="number" name="sl1" id="soluong1" min="1" max="10" value="1">
+        <button onclick="machiato()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/milktea- trân châu macchiato-78421616126852.jpg" alt=""></div>
+        <p><span>25.000</span>đ</p>
+        <a href="#">Trà sữa trân châu</a>
+        <input type="number" name="sl2" id="soluong2" min="1" max="10" value="1">
+        <button onclick="tscc()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+      <div class="rowimg"> <img src="/imge/tra-sua-bacha.jpg" alt=""></div>
+      <p><span>25.000</span>đ</p>
+      <a href="#">Trà sữa bạc hà</a>
+      <input type="number" name="sl3" id="soluong3" min="1" max="10" value="1">
+      <button onclick="tsbh()">Đặt hàng</button>
+   </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/tra-sua-truyền thống-3831616125859.jpg" alt=""></div>
+        <p><span>23.000</span>đ</p>
+        <a href="#">Trà sữa truyền thống</a>
+        <input type="number" name="sl4" id="soluong4" min="1" max="10" value="1">
+        <button onclick="tstt()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/tra-sua-khoai mon.jpg" alt=""></div>
+        <p><span>27.000</span>đ</p>
+        <a href="#">Trà sữa khoai môn</a>
+        <input type="number" name="sl5" id="soluong5" min="1" max="10" value="1">
+        <button onclick="tskm()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/sua-tuoi-tran-chau-duong-den-special-13771616128155.jpg" alt=""></div>
+        <p><span>24.000</span>đ</p>
+        <a href="#">Trân châu đường đen</a>
+        <input type="number" name="sl6" id="soluong6" min="1" max="10" value="1">
+        <button onclick="tcdd()">Đặt hàng</button>
+     </div>
+   </section>
+   <section class="tra" id="tra">
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/trà đào.jpg" alt=""></div>
+        <p><span>26.000</span>đ</p>
+        <a href="#">Trà đào</a>
+        <input type="number" name="sl7" id="soluong7" min="1" max="10" value="1">
+        <button onclick="td()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/trà vải thiều.jpg" alt=""></div>
+        <p><span>25.000</span>đ</p>
+        <a href="#">Trà vải thiều</a>
+        <input type="number" name="sl8" id="soluong8" min="1" max="10" value="1">
+        <button onclick="tvt()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/hồng trà.jpg" alt=""></div>
+        <p><span>26.000</span>đ</p>
+        <a href="#">Hồng trà Macchiato</a>
+        <input type="number" name="sl9" id="soluong9" min="1" max="10" value="1">
+        <button onclick="htmachiato()">Đặt hàng</button>
+     </div>
+   </section>
+     <section class="toping" id="toping">
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/khúc bạc.jpg" alt=""></div>
+        <p><span>3.000</span>đ</p>
+        <a href="#">Khúc bạch</a>
+        <input type="number" name="sl10" id="soluong10" min="1" max="10" value="1">
+        <button onclick="kb()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/đậu đỏ.jpg" alt=""></div>
+        <p><span>4.000</span>đ</p>
+        <a href="#">Đậu đỏ</a>
+        <input type="number" name="sl11" id="soluong11" min="1" max="10" value="1">
+        <button onclick="dd()">Đặt hàng</button>
+     </div>
+     <div class="boxsp">
+        <div class="rowimg"> <img src="/imge/củ năng.jpg" alt=""></div>
+        <p><span>55.000</span>đ</p>
+        <a href="#">Củ năng</a>
+        <input type="number" name="sl12" id="soluong12" min="1" max="10" value="1">
+        <button onclick="cn()">Đặt hàng</button>
+     </div>
+     </section>
+ </div>
+
+ <script src="./sp.js"></script>
+
+</body>
+</html>
